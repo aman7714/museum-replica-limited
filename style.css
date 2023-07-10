@@ -704,17 +704,6 @@ margin: 0px;
         min-width: 600px;
      }
      
-     .product-category-item {
-        padding: 10px 10px;
-        width: 114px;
-    }
-    .product-category-item .product-category-item-title p {
-        color: #97234f;
-        font-family: serif;
-        font-size: 12px;
-        font-weight: 600;
-        padding: 10px;
-    }
      .first-and-last-in-sword .first-and-last-in-sword-image {
         width: 400px;
         justify-content: center;
@@ -736,6 +725,18 @@ margin: 0px;
     }
     .upper-header-right{
         display: none;
+    }
+
+    .product-category-item {
+        padding: 10px 10px;
+        width: 114px;
+    }
+    .product-category-item .product-category-item-title p {
+        color: #97234f;
+        font-family: serif;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px;
     }
     
 }
