@@ -600,16 +600,85 @@ margin: 0px;
         font-weight: 600;
         padding: 10px;
     }
+    .products-category-list{
+        display: flex;
+        height: auto;
+        flex-wrap: wrap ;
+        justify-content: space-between;  
+    }
     .first-and-last-in-sword .first-and-last-in-sword-image {
-        width: 300px;
-        justify-content: center;
-        bottom: -35px;
-        z-index: 10;
-        left: 20%;
+        display: none;
     }
     .first-and-last-in-sword .first-and-last-in-sword-image img {
         object-fit: cover;
         width: 100%;
+    }
+
+    .home-page-item {
+        width: 210px;
+        padding: 5px;
+    }
+
+    .product-container-box-heading h2 {
+        font-size: 25px;
+    }
+    .product-item-list-box {
+        display: flex;
+        width: 381px;
+        flex-wrap: wrap;
+    }
+    .products-list-item {
+        padding: 10px;
+        width: 184px;
+    }
+    .product-item-image {
+        width: 140px;
+        overflow: hidden;
+    }
+    .details .product-name {
+        color: #97234f;
+        font-size: 13px;
+        padding: 8px 0px;
+        margin: 0px;
+        height: 55px;
+    }
+    .details p {
+        font-size: 12px;
+        padding: 0px 6px;
+    }
+    .rating-stars {
+        display: flex;
+        padding: 2% 2px;
+    }
+    .details .price {   
+        font-size: 14px;
+        padding: 3px 2px;
+    }
+    .details .addToCartBtn input {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .video-link{
+        width: 250px;
+        overflow: hidden;
+    }
+    .video-link img{
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .museum-replica-photo {
+        width: 400px;
+        height: 115px;
+    }
+    .museum-replica-photo img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .bottom-upper-footer-payment-option {
+        max-width: 230px;
     }
 }
 @media (min-width: 600px){
@@ -650,20 +719,14 @@ margin: 0px;
     .upper-header-right{
         display: none;
     }
+    
 }
 
 @media (min-width: 768px){
     .container{
         min-width: 768px;
     }
-    .banner-container-top ul li {
-        padding-top: 10px;
-    }
-    .banner-container-top-header .banner-container-top ul a {
-        color: black;
-        text-decoration: none;
-        font-size: 10px;
-    }
+    
     .product-category-item .product-category-item-title p {
         color: #97234f;
         font-family: serif;
@@ -711,12 +774,20 @@ margin: 0px;
         object-fit: cover;
         width: 100%;
     }
+    .banner-container-top ul li {
+        padding-top: 10px;
+    }
+    .banner-container-top-header .banner-container-top ul a {
+        color: black;
+        text-decoration: none;
+        font-size: 10px;
+    }
 }
 @media (min-width: 992px){
     .container{
         min-width: 992px;
     }
-    .product-category-item {
+    /* .product-category-item {
         padding: 10px 5px;
         width: 200px;
     }
@@ -724,7 +795,7 @@ margin: 0px;
         color: black;
         text-decoration: none;
         font-size: 10px;
-    }
+    } */
     .first-and-last-in-sword .first-and-last-in-sword-image {
         width: 600px;
         bottom: -35px;
