@@ -99,7 +99,7 @@
 
 /*********** navbar **************/
 .navbar-outer{
-    width: 100%;
+    /* width: 100%; */
     background: #97234f;
 }
 .dropdown-toggle::after {
