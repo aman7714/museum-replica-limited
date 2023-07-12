@@ -24,3 +24,4 @@ export const productsCategoryContainer = [
 ]
 
 
+background-color: black; overflow-y: scroll; scrollbar-width: none; height: 600px; width: 1000px;
